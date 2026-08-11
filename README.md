@@ -2,9 +2,9 @@
 A high-performance, modern career roadmap generator and skill tracker built with React and Tailwind CSS. SkillFlowPro helps users discover customized learning pathways, evaluate prior skills, track real-time mastery progress, and access curated resources entirely client-side with full offline persistence.
 
 🚀 Quick Links
-Live Demo
+[Live Demo](https://up-skillr-seven.vercel.app/)
 
-GitHub Repository
+[GitHub Repository](https://github.com/eswaranofficialdev/UpSkillr)
 
 ✨ Key Features
 🎯 Smart Skill Detection & Pruning: Automatically analyzes your existing skillset to bypass redundant beginner milestones and sequence remaining requirements.
@@ -28,42 +28,6 @@ Routing: React Router v6 (Client-side routing with clean URL architecture)
 
 Build Tool: Vite for lightning-fast bundling and HMR
 
-📂 Project Structure
-Plaintext
-SkillFlowPro/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Footer.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── SkillModal.jsx
-│   │   └── Toast.jsx
-│   ├── context/
-│   │   └── AppContext.jsx
-│   ├── data/
-│   │   ├── careersData.js
-│   │   ├── projectsData.js
-│   │   └── resourcesData.js
-│   ├── hooks/
-│   │   └── useLocalStorage.js
-│   ├── pages/
-│   │   ├── CareerExplorerPage.jsx
-│   │   ├── DashboardPage.jsx
-│   │   ├── LandingPage.jsx
-│   │   ├── OnboardingPage.jsx
-│   │   ├── ProfilePage.jsx
-│   │   ├── ProjectsPage.jsx
-│   │   ├── ResourcesPage.jsx
-│   │   └── RoadmapPage.jsx
-│   ├── utils/
-│   │   └── recommendationEngine.js
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-├── vercel.json
-└── README.md
 💻 How to Run Locally
 To get a local copy up and running on your machine, follow these steps:
 
