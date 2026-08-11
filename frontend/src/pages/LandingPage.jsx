@@ -13,7 +13,7 @@ export default function LandingPage() {
           Turn your career goal into a <span className="bg-gradient-to-r from-emerald-400 via-teal-500 to-cyan-500 bg-clip-text text-transparent">learning roadmap.</span>
         </h1>
         <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mb-10">
-          Upskillr analyzes your existing skills, experience level, and available time to generate a bespoke, step-by-step career roadmap instantly.
+          SkillFlowPro analyzes your existing skills, experience level, and available time to generate a bespoke, step-by-step career roadmap instantly.
         </p>
         <Link to="/onboarding" className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-lg shadow-xl shadow-emerald-500/25 transition-all hover:scale-105">
           Create My Roadmap <ArrowRight className="w-5 h-5" />

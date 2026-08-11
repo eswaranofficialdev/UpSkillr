@@ -6,8 +6,8 @@ const AppContext = createContext();
 
 export function AppProvider({ children }) {
   // Default to light theme (false) instead of dark
-  const [darkMode, setDarkMode] = useLocalStorage('upskillr_dark', false);
-  const [profile, setProfile] = useLocalStorage('upskillr_profile', {
+  const [darkMode, setDarkMode] = useLocalStorage('SkillFlowPro_dark', false);
+  const [profile, setProfile] = useLocalStorage('SkillFlowPro_profile', {
     name: 'Developer',
     goal: 'Full-Stack Developer',
     experience: 'Beginner',
@@ -15,12 +15,12 @@ export function AppProvider({ children }) {
     knownSkills: ['HTML', 'CSS']
   });
 
-  const [roadmap, setRoadmap] = useLocalStorage('upskillr_roadmap', () => 
+  const [roadmap, setRoadmap] = useLocalStorage('SkillFlowPro_roadmap', () => 
     generateRoadmap(profile.goal, profile.knownSkills, profile.experience)
   );
 
-  const [completedProjects, setCompletedProjects] = useLocalStorage('upskillr_projects', []);
-  const [toast, setToast] = useLocalStorage('upskillr_toast', null);
+  const [completedProjects, setCompletedProjects] = useLocalStorage('SkillFlowPro_projects', []);
+  const [toast, setToast] = useLocalStorage('SkillFlowPro_toast', null);
 
   const showToast = (message, type = 'success') => {
     setToast({ message, type });
