@@ -1,61 +1,61 @@
 ⚡ SkillFlowPro
 A high-performance, modern career roadmap generator and skill tracker built with React and Tailwind CSS. SkillFlowPro helps users discover customized learning pathways, evaluate prior skills, track real-time mastery progress, and access curated resources entirely client-side with full offline persistence.
 
-🚀 Live Demo
-Check out the live app here
+🚀 Quick Links
+Live Demo
 
-📦 GitHub Repository
-View Source Code on GitHub
+GitHub Repository
 
 ✨ Key Features
-🎯 Smart Skill Detection & Pruning: Analyzes your existing skill set to automatically bypass redundant milestones and sequence remaining requirements.
+🎯 Smart Skill Detection & Pruning: Automatically analyzes your existing skillset to bypass redundant beginner milestones and sequence remaining requirements.
 
-🗺️ Interactive Career Roadmaps: Step-by-step visual learning phases with interactive skill nodes, difficulty tags, and prerequisites.
+🗺️ Interactive Career Roadmaps: Step-by-step visual learning phases complete with interactive skill nodes, difficulty badges, time estimates, and prerequisites.
 
-📊 Real-Time Progress Dashboard: Tracks overall completion percentages, mastered skills, and estimated learning timelines.
+📊 Real-Time Progress Dashboard: Tracks overall completion percentages, mastered milestones, and estimated remaining learning timelines dynamically.
 
-📚 Curated Free Resources: Integrated directory of 100% free educational platforms, documentation, and video courses.
+📚 Curated Free Resources: Integrated directory featuring 100% free educational platforms, official documentation, and video courses.
 
-🛠️ Practical Project Recommendations: Hands-on project milestones tailored directly to your chosen career path (Beginner, Intermediate, Advanced).
+🛠️ Practical Project Recommendations: Hands-on project milestones tailored directly to your career goal across beginner, intermediate, and advanced levels.
 
-🔒 Complete Privacy & Offline Support: Powered completely client-side with persistent storage via localStorage—no backend or database required.
+🔒 Complete Privacy & Offline Support: Operates entirely client-side with persistent state storage via localStorage—no backend or database required.
 
 🛠️ Tech Stack
-Framework: React (Hooks, Context API)
+Frontend Framework: React 18 (Hooks, Context API)
 
-Styling: Tailwind CSS (Responsive Glassmorphism UI & Custom Dark/Light Modes)
+Styling: Tailwind CSS (Responsive Glassmorphism UI, Custom Dark/Light Themes)
 
-Routing: React Router (Client-side routing with clean URL architecture)
+Routing: React Router v6 (Client-side routing with clean URL architecture)
 
-Build Tool: Vite for lightning-fast bundling
+Build Tool: Vite for lightning-fast bundling and HMR
 
 📂 Project Structure
 Plaintext
-skillflowpro/
+SkillFlowPro/
 ├── public/
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   │   ├── Navbar.jsx
 │   │   ├── Footer.jsx
+│   │   ├── Navbar.jsx
 │   │   ├── SkillModal.jsx
 │   │   └── Toast.jsx
 │   ├── context/
 │   │   └── AppContext.jsx
 │   ├── data/
 │   │   ├── careersData.js
-│   │   ├── resourcesData.js
-│   │   └── projectsData.js
+│   │   ├── projectsData.js
+│   │   └── resourcesData.js
 │   ├── hooks/
 │   │   └── useLocalStorage.js
 │   ├── pages/
+│   │   ├── CareerExplorerPage.jsx
+│   │   ├── DashboardPage.jsx
 │   │   ├── LandingPage.jsx
 │   │   ├── OnboardingPage.jsx
-│   │   ├── DashboardPage.jsx
-│   │   ├── RoadmapPage.jsx
-│   │   ├── CareerExplorerPage.jsx
+│   │   ├── ProfilePage.jsx
 │   │   ├── ProjectsPage.jsx
 │   │   ├── ResourcesPage.jsx
-│   │   └── ProfilePage.jsx
+│   │   └── RoadmapPage.jsx
 │   ├── utils/
 │   │   └── recommendationEngine.js
 │   ├── App.jsx
@@ -65,7 +65,7 @@ skillflowpro/
 ├── vercel.json
 └── README.md
 💻 How to Run Locally
-To get a local copy up and running, follow these simple steps:
+To get a local copy up and running on your machine, follow these steps:
 
 Clone the repository:
 
@@ -75,7 +75,7 @@ Navigate to the project directory:
 
 Bash
 cd UpSkillr
-Install the dependencies:
+Install dependencies:
 
 Bash
 npm install
@@ -84,4 +84,4 @@ Start the development server:
 Bash
 npm run dev
 Open in your browser:
-Click the local link provided in your terminal (typically http://localhost:5173).
+Click the local address provided in your terminal (typically http://localhost:5173).
